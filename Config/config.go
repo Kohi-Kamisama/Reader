@@ -17,8 +17,5 @@ func LoadConfigEnv(vip *viper.Viper) (*configEnv, error) {
 		return nil, err
 	}
 
-	fmt.Println(User)
-	fmt.Println(user)
-
 	return &con, nil
 }
