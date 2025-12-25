@@ -14,7 +14,7 @@ func main() {
 		fmt.Println(err)
 	}
 	if con != nil {
-		fmt.Println(con)
+		fmt.Println(con.User)
 	}
 	
 }
